@@ -1,11 +1,10 @@
-<p align="center"><img src="https://res.cloudinary.com/dtfbvvkyp/image/upload/v1539108489/telescope-logo.svg"></p>
-
+<!-- <p align="center"><img src="https://res.cloudinary.com/dtfbvvkyp/image/upload/v1539108489/telescope-logo.svg"></p>
 <p align="center">
 <a href="https://travis-ci.org/laravel/telescope"><img src="https://travis-ci.org/laravel/telescope.svg?branch=1.0" alt="Build Status"></a>
 <a href="https://packagist.org/packages/laravel/telescope"><img src="https://poser.pugx.org/laravel/telescope/d/total.svg" alt="Total Downloads"></a>
 <a href="https://packagist.org/packages/laravel/telescope"><img src="https://poser.pugx.org/laravel/telescope/v/stable.svg" alt="Latest Stable Version"></a>
 <a href="https://packagist.org/packages/laravel/telescope"><img src="https://poser.pugx.org/laravel/telescope/license.svg" alt="License"></a>
-</p>
+</p> -->
 
 ## Introduction
 
@@ -42,7 +41,9 @@ When updating Telescope, you should re-publish Telescope's assets:
 ```sh
 php artisan vendor:publish --tag=telescope-assets --force
 ```
+
 <a name="dashboard-authorization"></a>
+
 ### Dashboard Authorization
 
 Telescope exposes a dashboard at `/telescope`. By default, you will only be able to access this dashboard in the `local` environment. Within your `app/Providers/TelescopeServiceProvider.php` file, there is a `gate` method. This authorization gate controls access to Telescope in **non-local** environments. You are free to modify this gate as needed to restrict access to your Telescope installation:
